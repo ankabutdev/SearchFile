@@ -23,6 +23,8 @@
             {
                 Console.WriteLine(filePath);
             }
+
+            Console.WriteLine($"Count found files: {foundFilePaths.Count}");
         }
         else
         {
